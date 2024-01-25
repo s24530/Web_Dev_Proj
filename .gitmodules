@@ -1,0 +1,8 @@
+[submodule "projektprogramistyczny-s24530"]
+	path = frontend
+	url = https://github.com/Zajecia-PJATK/projektprogramistyczny-s24530.git
+	branch = master
+[submodule "projektprogramistyczny-technologie-backendowe-s24530"]
+	path = pbackend
+	url = https://github.com/Zajecia-PJATK/projektprogramistyczny-technologie-backendowe-s24530.git
+	branch = master

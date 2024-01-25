@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  box-shadow: 0 1px 3px -2px #000;
+  margin-bottom: 1px;
+  background: white;
+}
+
+.navbar h1 {
+  font-size: 28px;
+}
+
+.nav-profile {
+  width: 75px;
+}
+
+.navbar button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background: #ff4141;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .navbar {
+    padding: 15px 30px;
+  }
+  .nav-logo {
+    width: 150px;
+  }
+
+  .nav-profile {
+    width: 60px;
+  }
+}
